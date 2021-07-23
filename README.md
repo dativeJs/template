@@ -10,7 +10,7 @@ EyraJs Template
    el: '#app',
    template (){
      return `
-       <h1>Hello Eyra</h1]
+       <h1>Hello Eyra</h1>
      `
    }
  })
