@@ -1,4 +1,4 @@
-import Eyra from './dist/esm/eyra.es.js';
+import Eyra from 'eyra';
 Eyra.debug(true)
 Eyra.importstyle('style')
 var app = new Eyra({
