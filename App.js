@@ -1,10 +1,10 @@
-import Eyra from 'eyra';
-Eyra.debug(true)
-Eyra.importstyle('style')
-var app = new Eyra({
+import Dative from 'https://cdn.jsdelivr.net/gh/Tobithedev/DativeJs@main/dist/dative.es.min.js';
+Dative.debug(true)
+Dative.importstyle('style')
+var app = new Dative({
   el: '#root',
   data: () => ({
-    msg: 'EyraJs',
+    msg: 'DativeJs',
     style:{
       div:{
         background: '#282828',
@@ -15,13 +15,12 @@ var app = new Eyra({
   template() {
     return `
      <div :style="style.div">  
-      <img src="public/logo.svg" class="img" />
+      <img src="public/logo.png" class="img" />
       </div>
       <h1 class="header fa-spin" bind:html="msg"></h1>
       <div class="link">
      <p class="text">Edit this Page in the <code>app.js</code></p>
-     <a class="a" href="https://github.com/Tobithedev/EyraJs">Github</a>
-     <a class="a" href="https://instagram.com/Tobithedev">Instagram</a>
+     <a class="a" href="https://github.com/Tobithedev/DativeJs">Github</a>
      </div>
      
     `;
