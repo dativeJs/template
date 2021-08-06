@@ -1,4 +1,4 @@
-import Dative from 'https://cdn.jsdelivr.net/gh/Tobithedev/DativeJs@main/dist/dative.es.min.js';
+import Dative from 'https://cdn.jsdelivr.net/gh/dativeJs/dativejs@main/dist/dative.es.min.js';
 Dative.debug(true)
 Dative.importstyle('style')
 var app = new Dative({
