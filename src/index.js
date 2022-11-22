@@ -1,17 +1,9 @@
-import { defineApp } from "dativejs";
-import { swing } from 'dativejs/animation'
-import template from './index.dative.html'
+import { App } from "./app/app.dative";
 
-var app = defineApp({
-    el: '#app',
-    data() {
-        return {
-            name: 'Dativejs'
-        }
-    },
-    template,
-    animate: {
-        swing
+
+export default new App({
+    el: "#app",
+    props: {
+        name: "Dativejs"
     }
 })
-app.render()
